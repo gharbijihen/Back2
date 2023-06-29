@@ -11,7 +11,7 @@ console.log("connect")*/
 
 const db = {}
 
-const sequelize = new Sequelize('stage', 'root','', {
+const sequelize = new Sequelize('gestion', 'root','', {
 host: 'localhost',
 dialect: 'mysql',
    port:3306,

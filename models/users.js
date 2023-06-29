@@ -37,6 +37,9 @@ module.exports = db.sequelize.define(
     image: {
         type: Sequelize.STRING,
     },
+    url1: {
+      type: Sequelize.STRING,
+  },
     passport: {
         type: Sequelize.STRING,
     },
@@ -62,4 +65,4 @@ module.exports = db.sequelize.define(
 }
 )
 
-//module.exports = User;
+// module.exports = User;
